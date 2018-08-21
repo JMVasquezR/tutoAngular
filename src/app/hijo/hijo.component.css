@@ -1,0 +1,8 @@
+.hijo {
+  border: 2px solid violet;
+  padding: 10px;
+}
+
+.tachado {
+  text-decoration: line-through;
+}

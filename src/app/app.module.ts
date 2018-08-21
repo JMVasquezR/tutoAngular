@@ -18,6 +18,8 @@ import { EjarrayobjetosComponent } from './ejarrayobjetos/ejarrayobjetos.compone
 import { EjdirectivaswichComponent } from './ejdirectivaswich/ejdirectivaswich.component';
 import { MenuitemDirective } from './menuitem.directive';
 import { EhmidirectivaComponent } from './ejmidirectiva/ehmidirectiva.component';
+import { PadreComponent } from './padre/padre.component';
+import { HijoComponent } from './hijo/hijo.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +38,9 @@ import { EhmidirectivaComponent } from './ejmidirectiva/ehmidirectiva.component'
     EjarrayobjetosComponent,
     EjdirectivaswichComponent,
     MenuitemDirective,
-    EhmidirectivaComponent
+    EhmidirectivaComponent,
+    PadreComponent,
+    HijoComponent
   ],
   imports: [
     BrowserModule,
