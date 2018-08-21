@@ -2,7 +2,8 @@ import {Component} from '@angular/core';
 
 @Component({
   selector: 'app-fehcaactual',
-  template: `<p>{{sexo | i18nSelect: encabezamiento}} {{nombre}}</p>`,
+  template: `<p>La cotizacion actual del dolar es de {{dolareuro | euro }}</p>`,
+  // template: `<p>{{sexo | i18nSelect: encabezamiento}} {{nombre}}</p>`,
   // template: `<p>La cotizacion actual del dolar es de {{dolareuro | currency: 'EUR': true}}</p>`,
 // template: `<p>El resultado es {{resultado | number: '3.2-2'}}</p>`,
 // template: `<p> {{ciudad | lowercase}}, {{hoy | date:'d-M-y'}} a las {{hoy | date: 'H:m  Z'}} </p>
@@ -16,7 +17,10 @@ export class FechaactualComponent {
   // ciudad: string = 'Lima';
   // resultado: number = 1.148;
   // dolareuro: number = 0.88;
-  nombre: string = 'Carlos';
-  sexo: string = 'hombre';
-  encabezamiento: any = {'hombre': 'Estimado', 'mujer': 'Estimada'};
+
+  // nombre: string = 'Carlos';
+  // sexo: string = 'hombre';
+  // encabezamiento: any = {'hombre': 'Estimado', 'mujer': 'Estimada'};
+
+  dolareuro: number = 0.88;
 }

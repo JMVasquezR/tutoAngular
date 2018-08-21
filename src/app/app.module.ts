@@ -20,6 +20,7 @@ import { MenuitemDirective } from './menuitem.directive';
 import { EhmidirectivaComponent } from './ejmidirectiva/ehmidirectiva.component';
 import { PadreComponent } from './padre/padre.component';
 import { HijoComponent } from './hijo/hijo.component';
+import { EuroPipe } from './euro.pipe';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { HijoComponent } from './hijo/hijo.component';
     MenuitemDirective,
     EhmidirectivaComponent,
     PadreComponent,
-    HijoComponent
+    HijoComponent,
+    EuroPipe
   ],
   imports: [
     BrowserModule,
