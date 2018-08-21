@@ -2,7 +2,7 @@ import {Component} from '@angular/core';
 
 @Component({
   selector: 'app-fehcaactual',
-  template: `<p> Lima, {{hoy | date:'d-M-y'}} a las {{hoy | date: 'H:m  Z'}} </p>
+  template: `<p> {{ciudad | lowercase}}, {{hoy | date:'d-M-y'}} a las {{hoy | date: 'H:m  Z'}} </p>
   <app-copyright></app-copyright>`,
   // templateUrl: './fechaactual.component.html',
   styleUrls: ['./fechaactual.component.css']
@@ -10,4 +10,5 @@ import {Component} from '@angular/core';
 
 export class FechaactualComponent {
   hoy = new Date();
+  ciudad: string = 'Lima';
 }
